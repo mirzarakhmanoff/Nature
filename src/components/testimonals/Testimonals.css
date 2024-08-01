@@ -1,0 +1,59 @@
+.testimonals {
+  background-color: #56b2801a;
+  padding-top: 90px;
+  padding-bottom: 60px;
+}
+.testimonals__title h2 {
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 57.6px;
+  letter-spacing: -0.8999999165534973px;
+  text-align: center;
+  color: #0b254b;
+}
+.testimonals__title p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27.6px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: center;
+  color: #5e6e89;
+}
+.testimonals__items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+.testimonal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #fff;
+  margin-top: 60px;
+}
+.star {
+  color: #5bc08a;
+}
+.testimonal span {
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 28.8px;
+  text-align: center;
+  color: #1d293f;
+  width: 250px;
+}
+.testimonal p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20.7px;
+  text-align: center;
+  color: #7c8087;
+}
