@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.hero {
+  background-image: url(../../assets/bg-image.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero__item {
+  max-width: 730px;
+  min-height: 349px;
+  border: solid;
+  background: #f7f8facc;
+  text-align: center;
+}
+
+.hero__item h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 57.6px;
+  text-align: center;
+  color: #1d252c;
+}
+.hero__item p {
+  font-family: "Roboto", sans-serif;
+  padding-inline: 50px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: center;
+}
+.hero__item a {
+  font-family: Roboto;
+  font-size: 20.65px;
+  font-weight: 500;
+  line-height: 24.19px;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px 15px;
+  display: inline-block;
+  border: solid;
+  color: #fff;
+  border-radius: 10px;
+  background-color: #56b280;
+  margin-top: 20px;
+}
